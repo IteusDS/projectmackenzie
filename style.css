@@ -1,0 +1,202 @@
+.logo1 {
+  background-color: #f9c648;
+  text-align: right;
+  padding-left: 20vh;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+.img1:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.logo1 a:link {
+  background: #f9c648;
+  color: #fff;
+  font-family: "Vidaloka", serif;
+  text-decoration: none;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+  padding: 8px;
+  float: left;
+  margin-top: 5vh;
+}
+
+.img1 {
+  padding-left: 50px;
+  height: 20vh;
+  margin-right: 100px;
+  animation: blockmove 6s infinite alternate-reverse;
+}
+.curso {
+  padding-left: 25vh;
+  margin-right: 20vh;
+  padding-right: 30px;
+  font-family: "Vidaloka", serif;
+  text-align: justify;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+.grade {
+  padding-left: 25vh;
+  margin-right: 20vh;
+  padding-right: 30px;
+  font-family: "Vidaloka", serif;
+  text-align: justify;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+
+.ctt {
+  padding-left: 25vh;
+  padding-right: 5vh;
+  font-family: "Vidaloka", serif;
+  padding-bottom: 5vh;
+  padding-top: 2vh;
+  background-color: #f9c648;
+  border-style: none;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+  color: #292929;
+}
+
+.ctt button {
+  background-color: #dfd3d2;
+  padding: 1vh;
+  border-style: none;
+  margin-left: 4vh;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+
+.ctt button:hover {
+  background-color: #300201;
+  color: blanchedalmond;
+}
+.ctt1 {
+  padding-left: 25vh;
+  padding-right: 30px;
+  font-family: "Vidaloka", serif;
+  background-color: #f9c648;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+
+a:link {
+  color: white;
+}
+
+/* link que foi visitado */
+a:visited {
+  color: white;
+}
+
+/* mouse over */
+a:hover {
+  color: #404040;
+}
+
+/* link selecionado */
+a:active {
+  color: #404040;
+}
+
+.back1 {
+  color: black;
+  text-align: center;
+}
+
+.bg1 {
+  color: black;
+  text-align: center;
+
+  padding: 1vh;
+  font-family: "Gotham";
+  font-weight: 600;
+  font-size: 12px;
+  color: #404040;
+  background-color: #f0f0f0;
+  text-align: center;
+  text-transform: uppercase;
+  transition-delay: 20ms;
+  transition-duration: 300ms;
+}
+.cod1:before,
+.cod1:after {
+  content: "";
+  display: block;
+  align-items: left;
+  width: 60px;
+  height: 4px;
+  background: #f9c648;
+  margin: 14px;
+}
+
+h3:after {
+  content: "";
+  display: block;
+  align-items: left;
+  width: 60px;
+  height: 4px;
+  background: #f9c648;
+  margin: 14px;
+}
+.bg1 a:link {
+  color: hsl(0, 20%, 94%);
+  padding-left: 3vh;
+}
+
+/* link que foi visitado */
+.bg1 a:visited {
+  color: hsl(0, 20%, 94%);
+}
+
+/* mouse over */
+.bg1 a:hover {
+  color: #404040;
+}
+
+/* link selecionado */
+.bg1 a:active {
+  color: #404040;
+}
+i {
+  padding-left: 1vh;
+}
+
+@media (max-width: 700px) {
+  .img1 {
+    position: fixed;
+  }
+  .logo1 {
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 1px;
+  }
+  .curso {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+  }
+  .grade {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+  }
+  .ctt {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+  }
+}
+.w3-container {
+  border-radius: 20px 20px 0px 0px;
+}
