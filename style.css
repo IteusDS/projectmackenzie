@@ -1,16 +1,24 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 .logo1 {
-  background-color: #f9c648;
+  background-color: #4483CE;
   text-align: right;
   padding-left: 20vh;
   transition-delay: 20ms;
   transition-duration: 300ms;
+}
+html {
+  scroll-behavior: smooth;
 }
 .img1:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 .logo1 a:link {
-  background: #f9c648;
+  background: #4483CE;
   color: #fff;
   font-family: "Vidaloka", serif;
   text-decoration: none;
@@ -35,7 +43,9 @@
   text-align: justify;
   transition-delay: 20ms;
   transition-duration: 300ms;
+
 }
+
 .grade {
   padding-left: 25vh;
   margin-right: 20vh;
@@ -52,7 +62,7 @@
   font-family: "Vidaloka", serif;
   padding-bottom: 5vh;
   padding-top: 2vh;
-  background-color: #f9c648;
+  background-color:#4483CE;
   border-style: none;
   transition-delay: 20ms;
   transition-duration: 300ms;
@@ -76,7 +86,7 @@
   padding-left: 25vh;
   padding-right: 30px;
   font-family: "Vidaloka", serif;
-  background-color: #f9c648;
+  background-color: #4483CE;
   padding: 20px;
   text-align: center;
   color: whitesmoke;
@@ -130,7 +140,7 @@ a:active {
   align-items: left;
   width: 60px;
   height: 4px;
-  background: #f9c648;
+  background:#4483CE;
   margin: 14px;
 }
 
@@ -140,7 +150,7 @@ h3:after {
   align-items: left;
   width: 60px;
   height: 4px;
-  background: #f9c648;
+  background: #4483CE;
   margin: 14px;
 }
 .bg1 a:link {
@@ -165,14 +175,26 @@ h3:after {
 i {
   padding-left: 1vh;
 }
+input{
+width: 25%
+}
 
-@media (max-width: 700px) {
+@MEDIA ONLY SCREEN AND (MIN-WIDTH: 768PX) AND (MAX-WIDTH: 959PX){
   .img1 {
-    position: fixed;
+overflow: hidden;
+  
+
+  }
+
+  input{
+    width: 40%;
+   background-color: transparent;
+   border-color: #;
+
   }
   .logo1 {
     margin: 0;
-    padding-left: 5px;
+    padding-left: 0.2em;
     padding-top: 1px;
   }
   .curso {
@@ -181,6 +203,7 @@ i {
     padding-left: 5vh;
     padding-right: 5vh;
     font-family: "Vidaloka", serif;
+  
   }
   .grade {
     margin-right: 2vh;
@@ -196,7 +219,201 @@ i {
     padding-right: 5vh;
     font-family: "Vidaloka", serif;
   }
+
 }
+
+@media (max-width: 700px) {
+  .img1 {
+    position: fixed;
+  
+
+  }
+  .logo1{
+    margin: 0;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 1em;
+  }
+  .curso {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .grade {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .ctt {
+    width:100%;
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+
 .w3-container {
   border-radius: 20px 20px 0px 0px;
 }
+
+input{
+  width: 100%;
+
+  font-size: 1em;
+}
+button{
+  font-size: 0.9em;
+text-align: center;
+margin-top: 5%;
+
+}
+}
+
+@media (max-width: 280px) {
+  .img1 {
+    position: fixed;
+  
+
+  }
+  .logo1{
+    margin: 0;
+    padding-left: 1px;
+    padding-top: 1px;
+    font-size: 0.9em;
+  }
+  .curso {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .grade {
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .ctt {
+    width:100%;
+    margin-right: 2vh;
+    text-align: justify;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+
+.w3-container {
+  border-radius: 20px 20px 0px 0px;
+}
+
+input{
+  width: 100%;
+
+  font-size: 1em;
+}
+button{
+  font-size: 0.9em;
+text-align: center;
+margin-top: 5%;
+
+}
+
+}
+
+@media (max-width: 1024px) {
+  .img1{ opacity: 0;
+
+      position: fixed;
+    
+  
+    }
+    
+  .logo1{
+width: 100%;
+    padding-left: 1px;
+    padding-top: 1px;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0%;
+  }
+
+  .ctt{
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+  }
+
+
+  /*AQUI COMEÇA O CÓDIGO DA PARTE QUE A SENHORA(O) PEDIU */
+  
+@media (max-width: 320px) {
+  .img1 {
+    position: fixed;
+  
+
+  }
+  .logo1{
+    margin: 0;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: 0.9em;
+  }
+  .curso {
+    margin-right: 2%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .grade {
+    margin-right: 2%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+  .ctt {
+    width:100%;
+    margin-right: 2%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Vidaloka", serif;
+    font-size: 1em;
+  }
+
+.w3-container {
+  border-radius: 20px 20px 0px 0px;
+}
+
+input{
+  width: 100%;
+
+  font-size: 1em;
+}
+button{
+  font-size: 0.9em;
+text-align: center;
+margin-top: 5%;
+
+}
+
+}
+
+
+  /*AQUI termina O CÓDIGO DA PARTE QUE A SENHORA(O) PEDIU */
